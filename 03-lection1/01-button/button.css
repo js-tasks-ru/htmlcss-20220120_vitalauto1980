@@ -1,5 +1,5 @@
 /* Стилизация кнопки */
-button {
+.btn {
     width: 189px;
     height: 48px;
     border: none;
@@ -8,29 +8,30 @@ button {
     font-style: normal;
     font-size: 16px;
     line-height: 19px;
-    align-items: center;
+    text-align: center;
     cursor: pointer;
-    margin-bottom: 14px;
     color: var(--white);
+    padding: 15px 0 14px 0;
+    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
 }
 
-.btn_primary, .btn__primary_disabled {
+.btn_primary {
     background-color: var(--primary);    
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-.btn_secondary, .btn__secondary_disabled {
-    background-color: var(--secondary);    
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
-}
-.btn_alternate, .btn__alternate_disabled {
-    background-color: var(--white);
-    color: var(--grey-4);
-    border: 1px solid #acb5bd;
     
 }
-.btn__primary_disabled, .btn__secondary_disabled, .btn__alternate_disabled {
+.btn_secondary {
+    background-color: var(--secondary);    
+}
+.btn_alternate {
+    background-color: var(--white);
+    color: var(--grey-4);
+    border: 1px solid;
+    border-color:  #acb5bd;
+    
+}
+.btn_disabled {
     opacity: 0.5;
-    cursor: default;
+    pointer-events: none;
 }
 .btn_primary:hover {
     background-color: #2342c0;
@@ -48,5 +49,5 @@ button {
     background-color: rgb(3, 3, 138);
 }
 .btn_alternate:active {
-    background-color: rgb(223, 223, 223);
+    background-color:  #acb5bd;
 }    
