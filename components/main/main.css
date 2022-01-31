@@ -1,0 +1,21 @@
+.library {
+    background: #f9fafc;
+}
+
+
+.line {
+    border: 1px solid;
+    border-color: var(--grey-2);
+}
+.components {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    
+.component {    
+    margin: 5px;
+    width: 350px;
+    height: 367px;
+    border: 1px solid  grey;
+}
