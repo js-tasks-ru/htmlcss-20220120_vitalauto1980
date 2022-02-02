@@ -1,5 +1,10 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
+@import '../../components/header/header.css';
+@import '../../components/footer/footer.css';
+@import '../../components/container/container.css';
+@import '../../components/card/card.css';
+@import '../../components/preview/preview.css';
 
 :root {
     --white: #ffffff;
@@ -20,7 +25,7 @@
     --secondary: var(--purple);
 }
 
-* {
+.body {
     font-family: 'Roboto', sans-serif;
 }
 .main {
@@ -30,12 +35,4 @@
 html, body {
     height: 100%;
 }
-.page {
-    display: flex;
-    flex-direction: column;
-}
-/*.page {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-}*/
+

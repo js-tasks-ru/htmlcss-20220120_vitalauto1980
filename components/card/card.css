@@ -1,0 +1,27 @@
+.card {
+font-family: Roboto, sans-serif;
+background: var(--white);
+box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
+border-radius: 12px;
+padding: 32px 25px;
+border: 1px solid black;
+flex-basis: 350px;
+box-sizing: border-box;
+}
+.card__top {
+
+}
+.card__bottom {
+    padding-top: 25px;
+}
+.card__title {
+margin: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+text-align: center;
+color: var(--black);
+
+
+}
