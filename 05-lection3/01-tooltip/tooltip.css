@@ -6,7 +6,7 @@
 .tooltip__icon {
     width: 24px;
     height: 24px;
-    background-image: url(./tooltip__icon.svg);
+    background-image: url(./Help.svg);
 }
 .tooltip__bubble {
     position: absolute;
