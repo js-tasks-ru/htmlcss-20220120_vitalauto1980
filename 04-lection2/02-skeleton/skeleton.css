@@ -6,7 +6,7 @@
   .skeleton__header {
 	display: flex;
 	align-items: center;
-	padding: 24px 218px 0 24px;
+	padding: 24px 24px 0 24px;
   }
   .skeleton__header_img {
 	width: 64px;
@@ -14,7 +14,7 @@
 	border-radius: 50%;
 	background: #DDE2E5;
 	margin: 0;	
-	flex-shrink: 0;
+	
   }
   .skeleton__text {  
 	margin:0;
@@ -22,15 +22,14 @@
 	background: linear-gradient(92.51deg, #DDE2E5 6.44%, #E2E6E8 38.47%, #F3F5F5 56.48%, #E3E7EA 77.5%, #DDE2E5 102.52%);
   }
   .skeleton__header_text {
-	width: 100%;
+	width: 257px;
 	padding-left: 16px;
   }
   .skeleton__text_short {
 	width: 66.93%;
-	margin: 0;
-  }
+ }
   .skeleton__text_long {
-	margin: 0;
+	width: 100%;
 	margin-top: 8px;
   }
   .skeleton__footer_text + .skeleton__footer_text {
