@@ -10,6 +10,7 @@
     border: 1px solid #ACB5BD;
     border-radius: 8px;
     margin-bottom: 8px;
+    position: relative;
 }
 .accord__item:last-child {
     margin-bottom: 0;
@@ -20,8 +21,7 @@
     font-weight: 400;
     color: var(--black);
     padding: 24px 535px 24px 32px;
-    display: block;
-    
+    display: inline-block;
 }
 .accord__title::-webkit-details-marker {
     display: none;
@@ -37,3 +37,15 @@
     margin-bottom: 16px;
     padding-bottom: 0;
 }
+.accord__item[open] .accord__icon {
+    transform: rotate(180deg);
+}
+.accord__icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 1.5rem;
+    right: 32px;
+    cursor: pointer;
+}
+
