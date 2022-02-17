@@ -1,0 +1,89 @@
+.radio__header {
+    text-transform: uppercase;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-3);
+  }
+  .radio {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 21px;
+  }
+  .radio__input {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    outline: none; 
+    position: absolute;
+  }
+  .radio__state {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    cursor: pointer;
+  }
+  .radio__control {
+    background: var(--white);
+    width: 28px;
+    height: 28px;
+    border: 1px solid;
+    border-color: var(--grey-2);
+    border-radius: 14px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .radio__icon {
+    color: var(--white);
+  }
+  .radio__title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+  }
+  .radio__input:checked ~ .radio__state .radio__control {
+    border: 2px solid;
+    border-color: var(--blue-2);
+    box-sizing: border-box;
+  }
+  .radio__input:checked ~ .radio__state .radio__icon {
+    color: var(--blue-2);
+  }
+  .radio__input:focus ~ .radio__state .radio__title {
+    text-decoration: underline;
+  }
+  .radio__title:hover {
+    color: var(--black);
+  }
+  .radio__state_disabled {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    pointer-events: none;
+  }
+  .radio__control_disabled {
+    background: var(--grey-2);
+  }
+  .radio__control_disabled .radio__icon {
+    color: var(--grey-2);
+  } 
+  .radio__title_disabled  {
+    color: var(--grey-2);
+  }
+  .radio__state .radio__title:before {
+    content: "Disabled"
+  }
+  .radio__input:checked ~ .radio__state .radio__title:before {
+    content: none;
+  }
+  .radio__input:checked ~ .radio__state .radio__title:after {
+    content: "Selected";
+  }
