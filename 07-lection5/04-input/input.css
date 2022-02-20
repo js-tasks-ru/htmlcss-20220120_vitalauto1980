@@ -18,7 +18,7 @@
 .input__style {
     padding-left: 24px;
     padding-right: 38px;
-    font-family: Inter,sans-serif;
+    font-family: 'Inter',sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -29,6 +29,8 @@
     border-radius: 8px;
     height: 56px;
     width: 100%;
+    transition: all 300ms linear;
+    outline: none;
 }
 .input__style:focus {
     font-family: 'Inter',sans-serif;
@@ -51,6 +53,9 @@
     position: absolute;
     right: 18px;
     bottom: 16px;
+}
+.input__style_success {
+    border: 1px solid var(--blue-2);
 }
 .input__style_invalid {
     border: 1px solid #F03D3E;
