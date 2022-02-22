@@ -1,6 +1,6 @@
 /* Стилизация кнопки */
 .btn {
-    
+    position:relative;
     height: 48px;
     border: none;
     border-radius: 8px;
@@ -13,7 +13,12 @@
     cursor: pointer;
     color: var(--white);
     padding: 15px 30px 14px 30px;
-    transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+    box-shadow:
+    0 1px rgba(255,255,255,.2) inset,
+    0 3px 5px rgba(0,1,6,.5),
+    0 0 1px 1px rgba(0,1,6,.2);
+    transition: .2s ease-in-out;
+    
 }
 
 .btn_primary {
@@ -42,11 +47,26 @@
     border-color: #212429;
 }
 .btn_primary:active {
+    top: 2px;
+    box-shadow:
+    0 0 1px rgba(0,0,0,.5) inset,
+    0 2px 3px rgba(0,0,0,.5) inset,
+    0 1px 1px rgba(255,255,255,.1);
     background-color: rgb(3, 3, 138);
 }
 .btn_secondary:active {
+    top: 2px;
+    box-shadow:
+    0 0 1px rgba(0,0,0,.5) inset,
+    0 2px 3px rgba(0,0,0,.5) inset,
+    0 1px 1px rgba(255,255,255,.1);
     background-color: rgb(3, 3, 138);
 }
 .btn_alternate:active {
+    top: 2px;
+    box-shadow:
+    0 0 1px rgba(0,0,0,.5) inset,
+    0 2px 3px rgba(0,0,0,.5) inset,
+    0 1px 1px rgba(255,255,255,.1);
     background-color:  #acb5bd;
 }    
