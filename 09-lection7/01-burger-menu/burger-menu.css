@@ -1,0 +1,118 @@
+
+@media (max-width: 768px) {
+.container {
+    padding: 16px;
+ }
+.burger-menu {
+    box-sizing: border-box;    
+    padding: 16px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    transform: translateX(-100vw);
+    transition: transform 200ms ease-in-out;
+    
+}
+.burger-menu[data-open] {
+    transform: translateX(0);
+    padding: 16px;
+    box-sizing: border-box;
+}
+.main {
+    position: absolute;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.burger-menu-open  {
+    border: none;
+    background: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.burger-menu-open:active {
+    opacity: 0.5;
+}
+
+.burger-menu-close {
+    background-color: var(--grey-2);
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+.burger-menu-close:active {
+    transition: 250ms;
+    transform: rotate(180deg);
+}
+.mode {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--grey-2);
+    border-bottom: 1px solid var(--grey-2);
+    padding-top: 24px ;
+    padding-bottom: 24px;
+}
+.mode__name:before {
+    content: "Dark mode";
+}
+.mode__name {
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+color: var(--grey-4);
+margin: 0;
+}   
+.toggler__state {
+    margin: 0 !important
+}
+.burger-menu__title {
+    margin: 0;
+    margin-top: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--grey-3);
+} 
+.burger-menu__element, .burger-menu__container  {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.5rem;
+    color: var(--black);
+    text-decoration: none;
+}
+.burger-menu__element:active {
+    color: rgba(216, 73, 16, 1);
+}
+.burger-menu__container:active {
+    color: rgba(216, 73, 16, 1);
+}
+.list {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.burger-menu__navi {
+    border-bottom: 1px solid var(--grey-2);
+}
+li {
+    padding-bottom: 1rem;
+}
+}
