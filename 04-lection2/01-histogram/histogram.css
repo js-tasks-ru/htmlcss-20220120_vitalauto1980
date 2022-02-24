@@ -52,6 +52,21 @@
     justify-content: stretch;
     height: 50px;
     width: 100%;
+    animation: appear 600ms ease-out;
+}
+@keyframes appear {
+    0% {
+        transform: scaleY(0);
+        transform-origin: bottom;        
+    }
+    50% {
+        transform: scaleY(0);
+        transform-origin: bottom;
+    }
+    100% {
+        transform: scaleY(1);
+        transform-origin: bottom;
+    }
 }
 .histogram__bar {
     background: var(--blue-2);
