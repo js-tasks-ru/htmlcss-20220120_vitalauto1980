@@ -17,8 +17,6 @@
 }
 .burger-menu[data-open] {
     transform: translateX(0);
-    padding: 16px;
-    box-sizing: border-box;
 }
 .main {
     position: absolute;
