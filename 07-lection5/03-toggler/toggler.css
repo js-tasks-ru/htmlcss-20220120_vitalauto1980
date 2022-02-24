@@ -47,9 +47,7 @@
   }
   .toggler__input:checked ~ .toggler__state .toggler__icon {
     color: var(--white);
-    margin-left: auto;
-    margin-right: 25px;
-    transform: translateX(25px);
+    transform: translateX(24px);
     
   }
   .toggler__input:focus ~ .toggler__state .toggler__title {
