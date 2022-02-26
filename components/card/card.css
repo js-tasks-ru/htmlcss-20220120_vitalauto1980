@@ -1,7 +1,9 @@
 .card {
     display: flex;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
     background: var(--white);
     box-shadow: 0 2px 4px rgba(33, 36, 41, 0.05);
     border-radius: 12px;
@@ -13,10 +15,9 @@
 }
 .card__top {
     flex-grow: 1;
+    
 }
-.card__bottom {
-    padding-top: 25px;
-}
+
 .card__title {
     margin: 0;
     font-style: normal;
@@ -25,6 +26,48 @@
     line-height: 25px;
     text-align: center;
     color: var(--black);
-
+    margin-bottom: 6px;
 
 }
+.card__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: var(--black);
+    margin: 0;
+}
+.tooltip {
+    margin: 127px 0 98px 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.card__second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+    margin: 49px 28px 88px 21px;
+}
+.calendar {
+    left: 50%;
+    margin: 0 49px 38px 49px;
+}
+.avatar {
+    margin: 32px 70px 67px 70px;
+}
+.load-more {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 92px;
+}
+.btn_secondary {
+    margin-top: 50px;
+}
+.histogram {
+    margin: 29px 0 67px 0;
+}
+
