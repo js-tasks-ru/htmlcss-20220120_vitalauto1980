@@ -55,33 +55,5 @@
     margin: 0 15px 0 15px !important;
 
 }
-.header__elements {
-    box-sizing: border-box;
-    margin-bottom: 13px;
-    overflow: hidden;
-}
-.elements__menu {
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
-}   
-.element__link {
-    box-sizing: border-box;
-    list-style-type: none;
-    cursor: pointer;
-    text-decoration: none;
-    color: var(--grey-3);
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
 
-}
-.element__link:hover, .element__link:active {
-    color: var(--black);
-    
-    
-}
 

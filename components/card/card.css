@@ -39,7 +39,7 @@
     color: var(--black);
     margin: 0;
 }
-.tooltip {
+.tooltip_preview {
     margin: 127px 0 98px 0;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -52,11 +52,11 @@
     gap: 37px;
     margin: 49px 28px 88px 21px;
 }
-.calendar {
+.calendar_preview {
     left: 50%;
     margin: 0 49px 38px 49px;
 }
-.avatar {
+.avatar_preview {
     margin: 32px 70px 67px 70px;
 }
 .load-more {
@@ -64,10 +64,10 @@
     justify-content: center;
     margin-bottom: 92px;
 }
-.btn_secondary {
+.btn_secondary_preview {
     margin-top: 50px;
 }
-.histogram {
+.histogram_preview {
     margin: 29px 0 67px 0;
 }
 

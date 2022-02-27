@@ -13,7 +13,13 @@
         <link rel="stylesheet" href="./03-lection1/01-button/button.css">
         <link rel="stylesheet" href="./04-lection2/01-histogram/histogram.css">
         <link rel="stylesheet" href="./06-lection4/01-avatar/avatar.css">
-
+        <link rel="stylesheet" href="./06-lection4/svg-sprite/svg-sprite.svg">
+        <script> const changer = document.getElementById('theme-changer');
+            const html = document.documentElement;
+            
+            changer.addEventListener('change', function() {
+                html.toggleAttribute('data-theme-dark');
+            });</script>
     </head>
     <body class="page">
         <header class="header">
@@ -42,7 +48,7 @@
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M20.4872 3.51286C20.8777 3.90339 20.8777 4.53655 20.4872 4.92708L19.0672 6.34708C18.6767 6.7376 18.0435 6.7376 17.653 6.34708C17.2625 5.95655 17.2625 5.32339 17.653 4.93286L19.073 3.51286C19.4635 3.12234 20.0967 3.12234 20.4872 3.51286Z" fill="#212429"/>
                             </svg>
                             <label class="toggler">
-                                <input class="toggler__input" type="checkbox" name="off">
+                                <input class="toggler__input" type="checkbox" name="off" id="theme-changer">
                                 <div class="toggler__state">
                                     <div class="toggler__control">
                                         <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -57,12 +63,12 @@
                         </div>
                 </div>
                 <h1 class="header__title">Reusable component library</h1>
-                <nav class="header__elements">
-                    <ul class="elements__menu">
-                        <li class="element__link">All components</li>
-                        <li class="element__link">Elements</li>
-                        <li class="element__link">Containers</li>
-                        <li class="element__link">Templates</li>
+                <nav class="navigation">
+                    <ul class="navigation__menu">
+                        <li class="navigation__link">All components</li>
+                        <li class="navigation__link">Elements</li>
+                        <li class="navigation__link">Containers</li>
+                        <li class="navigation__link">Templates</li>
                     </ul>
                 </nav>
             </div>
@@ -73,7 +79,7 @@
             
                 <div class="card">
                     <div class="card__top">
-                        <div class="tooltip">
+                        <div class="tooltip tooltip_preview">
                             <svg class="tooltip__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3ZM1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12Z" fill="#212429"/>
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M12.2582 8.02428C11.7927 7.94443 11.314 8.03191 10.9068 8.27123C10.4996 8.51054 10.1902 8.88625 10.0335 9.3318C9.85018 9.85279 9.27926 10.1266 8.75827 9.9433C8.23728 9.76002 7.96351 9.18911 8.14678 8.66812C8.46025 7.77701 9.07898 7.02559 9.89339 6.54696C10.7078 6.06833 11.6653 5.89337 12.5964 6.05307C13.5274 6.21277 14.3719 6.69682 14.9802 7.41949C15.5884 8.14201 15.9214 9.05644 15.9201 10.0009C15.9197 11.5312 14.7851 12.5419 13.9748 13.082C13.5392 13.3724 13.1107 13.586 12.795 13.7263C12.6358 13.7971 12.5016 13.8508 12.405 13.8876C12.3566 13.906 12.3174 13.9203 12.2888 13.9305L12.2541 13.9426L12.243 13.9464L12.2391 13.9477L12.2376 13.9482C12.2373 13.9483 12.2363 13.9486 11.9201 13L12.2363 13.9486C11.7124 14.1233 11.1461 13.8401 10.9714 13.3162C10.7969 12.7926 11.0796 12.2267 11.6028 12.0516L11.6016 12.0521C11.6017 12.052 11.6018 12.052 11.6028 12.0516L11.6188 12.046C11.6342 12.0406 11.6594 12.0314 11.693 12.0186C11.7605 11.9929 11.8607 11.9529 11.9827 11.8986C12.2296 11.7889 12.551 11.6275 12.8654 11.4179C13.555 10.9582 13.9201 10.4691 13.9201 9.99996L13.9201 9.99847C13.9208 9.52615 13.7543 9.06883 13.4502 8.70749C13.146 8.34615 12.7238 8.10413 12.2582 8.02428Z" fill="#212429"/>
@@ -186,7 +192,7 @@
 
                 <div class="card">
                     <div class="card__top">
-                        <div class="calendar">
+                        <div class="calendar calendar_preview">
                             <h1 class="calendar__header">October 2019</h1>
                             <div class="calendar__wrapper">
                                 <div class="calendar__inner">
@@ -245,12 +251,12 @@
                 
                 <div class="card">
                     <div class="card__top">
-                        <button id="modal-open" class="btn btn_secondary">Open modal</button>
+                        <button id="modal-open" class="btn btn_secondary btn_secondary_preview">Open modal</button>
                             <div id="modal" class="modal">
                                 <div class="modal__window">
                                 <a id="modal-close" href="#" title="close" class="modal__close">
                                     <svg class="modal__icon">
-                                        <use href="../../06-lection4/svg-sprite/svg-sprite.svg#cross"></use>
+                                        <use href="./06-lection4/svg-sprite/svg-sprite.svg#cross"></use>
                                     </svg>
                                 </a>
                             <div class="modal__body">
@@ -261,7 +267,7 @@
                             </div>
 
             </div>
-        </div>
+            </div>
                     </div>
                     <div class="card__bottom">
                         <h5 class="card__title">Modal dialog</h5>
@@ -272,7 +278,7 @@
 
                 <div class="card">
                     <div class="card__top">
-                        <div class="histogram">
+                        <div class="histogram histogram_preview">
                             <div class="histogram__header">
                               <div>
                                 <p class="histogram__title">Total orders</p>
@@ -323,7 +329,7 @@
 
                 <div class="card">
                     <div class="card__top">
-                        <div class="avatar">
+                        <div class="avatar avatar_preview">
                             <img class="avatar__img" src="./06-lection4/01-avatar/Avatar.jpg" alt="изображение аватара">
                         </div>
                     </div>
@@ -335,13 +341,12 @@
             
              
             
-        </main>
-        <div class="load-more">
-        <button class="btn btn_alternate">Load more</button>
-        
-        </div>
-        <div class="border"></div>
+            </main>
+            <div class="load-more">
+                <button class="btn btn_alternate">Load more</button>
+            </div>
     </div>
+    <div class="border"></div>
         <footer class="footer">
             <div class="container">
                 <h2 class="footer__title">About</h2>

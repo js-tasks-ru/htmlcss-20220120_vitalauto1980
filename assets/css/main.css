@@ -5,6 +5,7 @@
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
 @import '../../components/preview/preview.css';
+@import '../../components/navigation/navigation.css';
 
 :root {
     --white: #ffffff;
@@ -39,4 +40,6 @@
 html, body {
     height: 100%;
 }
-
+html[data-theme-dark] {
+    background: black;
+}
