@@ -4,12 +4,13 @@
 }
 .histogram {
     font-family: 'Inter', sans-serif;
-    width: 354px;
+    width: 300px;
     border: 1px solid;
     border-color: var(--grey-3);
     border-radius: 8px;
     background-color : var(--white);
     padding: 16px 24px 24px 24px;
+    box-sizing: border-box;
     
 }
 .histogram__title {
