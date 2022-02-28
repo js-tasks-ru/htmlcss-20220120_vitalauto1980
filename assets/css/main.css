@@ -28,6 +28,14 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --main-bg: var(--white);
+    --font-color: var(--black);
+    --text-primary: var(--black);
+    --text-calendar: var(--navy);
+    --text-title: var(--black);
+    --link-color: var(--black);
+    --second-bg: var(--white);
 }
 
 .body {
@@ -42,65 +50,14 @@ html, body {
 }
 html[data-theme-dark]{
     background: var(--grey-4);
+    --main-bg: var(--black);
+    --font-color: var(--white);
+    --text-primary: var(--grey-3);
+    --text-calendar: var(--grey-3);
+    --text-title: var(--grey-5);
+    --link-color: var(--grey-2);
+    --second-bg: var(--grey-5);
 }
-html[data-theme-dark] header {
-    background: #212429;
-}
-html[data-theme-dark] footer {
-    background: #212429;
-}
-html[data-theme-dark] .card {
-    background: var(--black);
-}
-html[data-theme-dark] .header__icon {
-    color: var(--white);
-}
-html[data-theme-dark] .header__title {
-    color: var(--grey-5);
-}
-html[data-theme-dark] .menu__link:hover {
-    color: var(--grey-2)
-}
-html[data-theme-dark] .navigation__link:hover {
-    color: var(--grey-2)
-}
-html[data-theme-dark] .calendar_preview {
-    background: var(--black);
-}
-html[data-theme-dark] .calendar__header_preview {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .calendar__item_preview {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .card__title {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .card__subtitle {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .histogram_preview {
-    background: var(--black);
-}
-html[data-theme-dark] .histogram__link_preview {
-    background: var(--black);
-}
-html[data-theme-dark] .histogram__title_preview{
-    color: var(--grey-5);
-}
-html[data-theme-dark] .histogram__counter_preview {
-    color: var(--white);
-}
-html[data-theme-dark] .footer__title {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .footer__text {
-    color: var(--grey-3);
-}
-html[data-theme-dark] .load-more {
-    color: var(--black);
-}
-html[data-theme-dark] .btn_preview {
-    color: var(--grey-2);
-    background: var(--grey-5);
-}
+
+
+

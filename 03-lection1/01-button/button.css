@@ -29,7 +29,7 @@
     background-color: var(--secondary);    
 }
 .btn_alternate {
-    background-color: var(--white);
+    background-color: var(--second-bg);
     color: var(--grey-4);
     border: 1px solid #acb5bd;
 }

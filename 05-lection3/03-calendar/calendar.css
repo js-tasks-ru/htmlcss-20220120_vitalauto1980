@@ -1,7 +1,7 @@
 .calendar {
     max-width: 202px;
     /* width: 100%; */
-    background: var(--white);
+    background: var(--main-bg);
     border: 1px solid;
     border-color: var(--grey-3);
     /* box-sizing: border-box; */
@@ -14,7 +14,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-    color: var(--navy);
+    color: var(--text-calendar);
     text-align: center;
     margin: 0;
     margin-bottom: 24px;
@@ -43,7 +43,7 @@
     font-weight: normal;
     font-size: 12px;
     line-height: 20px;
-    color: var(--navy);
+    color: var(--text-calendar);
 }
 .calendar__item_day {
     font-family: 'Inter', sans-serif;
