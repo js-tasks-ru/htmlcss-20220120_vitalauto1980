@@ -40,6 +40,67 @@
 html, body {
     height: 100%;
 }
-html[data-theme-dark] {
-    background: black;
+html[data-theme-dark]{
+    background: var(--grey-4);
+}
+html[data-theme-dark] header {
+    background: #212429;
+}
+html[data-theme-dark] footer {
+    background: #212429;
+}
+html[data-theme-dark] .card {
+    background: var(--black);
+}
+html[data-theme-dark] .header__icon {
+    color: var(--white);
+}
+html[data-theme-dark] .header__title {
+    color: var(--grey-5);
+}
+html[data-theme-dark] .menu__link:hover {
+    color: var(--grey-2)
+}
+html[data-theme-dark] .navigation__link:hover {
+    color: var(--grey-2)
+}
+html[data-theme-dark] .calendar_preview {
+    background: var(--black);
+}
+html[data-theme-dark] .calendar__header_preview {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .calendar__item_preview {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .card__title {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .card__subtitle {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .histogram_preview {
+    background: var(--black);
+}
+html[data-theme-dark] .histogram__link_preview {
+    background: var(--black);
+}
+html[data-theme-dark] .histogram__title_preview{
+    color: var(--grey-5);
+}
+html[data-theme-dark] .histogram__counter_preview {
+    color: var(--white);
+}
+html[data-theme-dark] .footer__title {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .footer__text {
+    color: var(--grey-3);
+}
+html[data-theme-dark] .load-more {
+    color: var(--black);
+}
+html[data-theme-dark] .btn_preview {
+    color: var(--grey-2);
+    background: var(--grey-5);
 }

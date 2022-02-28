@@ -43,6 +43,7 @@
     margin: 127px 0 98px 0;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: var(--blue);
     
 }
 .card__second {
@@ -55,6 +56,7 @@
 .calendar_preview {
     left: 50%;
     margin: 0 49px 38px 49px;
+    
 }
 .avatar_preview {
     margin: 32px 70px 67px 70px;
