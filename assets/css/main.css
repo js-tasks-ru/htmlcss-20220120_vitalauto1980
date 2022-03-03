@@ -28,6 +28,14 @@
 
     --primary: var(--blue);
     --secondary: var(--purple);
+
+    --main-bg: var(--white);
+    --font-color: var(--black);
+    --text-primary: var(--black);
+    --text-calendar: var(--navy);
+    --text-title: var(--black);
+    --link-color: var(--black);
+    --second-bg: var(--white);
 }
 
 .body {
@@ -40,6 +48,16 @@
 html, body {
     height: 100%;
 }
-html[data-theme-dark] {
-    background: black;
+html[data-theme-dark]{
+    background: var(--grey-4);
+    --main-bg: var(--black);
+    --font-color: var(--white);
+    --text-primary: var(--grey-3);
+    --text-calendar: var(--grey-3);
+    --text-title: var(--grey-5);
+    --link-color: var(--grey-2);
+    --second-bg: var(--grey-5);
 }
+
+
+
