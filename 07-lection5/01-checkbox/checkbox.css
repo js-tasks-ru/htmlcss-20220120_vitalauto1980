@@ -50,6 +50,7 @@
     border-color: var(--blue-2);
     opacity: 0;
     position: absolute;
+    cursor: pointer;
     
 }
 .checkbox__input:checked + .checkbox__animation {
@@ -88,3 +89,16 @@
 .checkbox__input:disabled ~ .checkbox__state   {
     pointer-events: none;
 }
+.checkbox__input:disabled ~ .checkbox__state .checkbox__title:before {
+    content: none;
+}
+.checkbox__title:before {
+    content: 'Default';
+}
+.checkbox__input:checked ~ .checkbox__state .checkbox__title:before {
+    content: none;
+}
+.checkbox__input:checked ~ .checkbox__state .checkbox__title:after {
+    content: 'Checked';
+}
+
