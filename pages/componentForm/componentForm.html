@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="./componentForm.css">
+    <link rel="stylesheet" href="../../07-lection5/01-checkbox/checkbox.css">
+    <link rel="stylesheet" href="../../07-lection5/02-radio/radio.css">
+    <link rel="stylesheet" href="../../07-lection5/03-toggler/toggler.css">
+    <link rel="stylesheet" href="../../07-lection5/04-input/input.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom form elements</title>
+</head>
+<body>
+    <div class="pageHistogram">
+        <header class="header">
+            
+        </header>
+        <main class="main">
+            <div class="main__navi">
+                <h4 class="navi__title"> Components</h4>
+                <div class="navi__links">
+                    <a class="navi__link" href="../componentModal/componentModal.html">Modal</a>
+                    <a class="navi__link" href="../componentTooltip/componentTooltip.html">Tooltip</a>
+                    <a class="navi__link" href="../componentAvatar/componentAvatar.html">Avatar</a>
+                    <a class="navi__link" href="../componentCalendar/componentCalendar.html">Calendar</a>
+                    <a class="navi__link" href="../componentHistogram/componentHistogram.html">Histogram</a>
+                    <a class="navi__link" href="../componentForm/componentForm.html">Custom form elements</a>
+                    <a class="navi__link" href="../../index.html">Main page</a>
+                </div>
+            </div>
+            <div class="main__component">
+                <h3 class="component__name">Custom form elements</h3>
+                <div class="main__component_form">
+                <div>
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox__input">
+                        <div class="checkbox__animation"></div>
+                    <div class="checkbox__state">
+                        
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                        </div>
+                        <div class="checkbox__title"></div>
+                    </div>
+                    </label>
+                
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox__input">
+                        <div class="checkbox__animation"></div>
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon" width="15" height="13" viewBox="0 0 15 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 7.5L5 11L13 2" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <div class="checkbox__title"></div>
+                    </div>
+                    </label>
+                
+                    <label class="checkbox">
+                        <input type="checkbox" class="checkbox__input" disabled="">
+                    <div class="checkbox__state">
+                        <div class="checkbox__control">
+                            <svg class="checkbox__icon" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="28" height="28" rx="4" fill="#DDE2E5"/>
+                            </svg>
+                        </div>
+                        <div class="checkbox__title">Disabled</div>
+                    
+                    </div>
+                    </label>
+                </div>
+                <div>
+                    <label class="radio">
+                    <input type="radio" name="radio" class="radio__input">
+                        <div class="radio__state">
+                            <div class="radio__control">
+                                <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="18" height="18" rx="9" fill="currentcolor"/>
+                                </svg>
+                            </div>
+                            <div class="radio__title"></div>
+                        </div>
+                    </label>
+                
+                    <label class="radio">
+                    <input type="radio" name="radio" class="radio__input">
+                        <div class="radio__state">
+                            <div class="radio__control">
+                                <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="18" height="18" rx="9" fill="currentcolor"/>
+                                </svg>
+                            </div>
+                            <div class="radio__title"></div>
+                        </div>
+                    </label>
+               
+                    <label class="radio">
+                    <input type="radio" name="radio" class="radio__input" disabled=" ">
+                        <div class="radio__state">
+                            <div class="radio__control">
+                                <svg class="radio__icon" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="18" height="18" rx="9" fill="currentcolor"/>
+                                </svg>
+                                    
+                            </div>
+                            <div class="radio__title">Disabled</div>
+                        </div>
+                    </label>
+                </div>
+                <div>
+                    <label class="toggler">
+                        <input class="toggler__input" type="checkbox" name="off">
+                        <div class="toggler__state">
+                            <div class="toggler__control">
+                                <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="currentcolor"/>
+                                </svg>
+                            </div>
+                            <div class="toggler__title"></div>
+                        </div>
+                    </label>
+                    <label class="toggler">
+                        <input class="toggler__input" type="checkbox" name="off">
+                        <div class="toggler__state">
+                            <div class="toggler__control">
+                                <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="currentcolor"/>
+                                </svg>
+                            </div>
+                            <div class="toggler__title"></div>
+                        </div>
+                    </label>
+                    <label class="toggler">
+                        <input class="toggler__input" type="checkbox" name="disabled" disabled="">
+                        <div class="toggler__state">
+                            <div class="toggler__control">
+                                <svg class="toggler__icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="24" height="24" rx="12" fill="currentcolor"/>
+                                </svg>
+                            </div>
+                            <div class="toggler__title">Disabled</div>
+                        </div>
+                    </label>
+                    </div>
+                </div>
+                <div >
+                    <div class="input">
+                        <h5 class="input__title">disabled</h5>
+                        <label> 
+                            <input  class="input__style" type="text" placeholder="Placeholder" disabled="">
+                        </label>
+                    </div>
+                    <div class="input">
+                        <h5 class="input__title">Focus</h5>
+                        <label> 
+                            <input  class="input__style" type="text" placeholder="Placeholder">
+                        </label>
+                    </div>
+                    <div class="input">
+                        <h5 class="input__title">Success</h5>
+                        <label>
+                            <input class="input__style input__style_success" type="text">
+                            <svg class="svg__success" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 11.08V12C21.9988 14.1564 21.3005 16.2547 20.0093 17.9818C18.7182 19.709 16.9033 20.9725 14.8354 21.5839C12.7674 22.1953 10.5573 22.1219 8.53447 21.3746C6.51168 20.6273 4.78465 19.2461 3.61096 17.4371C2.43727 15.628 1.87979 13.4881 2.02168 11.3363C2.16356 9.18457 2.99721 7.13633 4.39828 5.49707C5.79935 3.85782 7.69279 2.71538 9.79619 2.24015C11.8996 1.76491 14.1003 1.98234 16.07 2.86" stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M22 4L12 14.01L9 11.01" stroke="#374FC7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                      </label>
+                    </div>
+                    <div class="input">
+                        <h5 class="input__title">Error</h5>
+                        <label>
+                            <input class="input__style input__style_invalid" type="text">
+                            <svg class="svg__error" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10.29 3.86001L1.82 18C1.64537 18.3024 1.55296 18.6453 1.55199 18.9945C1.55101 19.3437 1.64149 19.6871 1.81442 19.9905C1.98736 20.2939 2.23672 20.5468 2.53771 20.7239C2.83869 20.901 3.1808 20.9962 3.53 21H20.47C20.8192 20.9962 21.1613 20.901 21.4623 20.7239C21.7633 20.5468 22.0126 20.2939 22.1856 19.9905C22.3585 19.6871 22.449 19.3437 22.448 18.9945C22.447 18.6453 22.3546 18.3024 22.18 18L13.71 3.86001C13.5317 3.56611 13.2807 3.32313 12.9812 3.15449C12.6817 2.98585 12.3437 2.89726 12 2.89726C11.6563 2.89726 11.3183 2.98585 11.0188 3.15449C10.7193 3.32313 10.4683 3.56611 10.29 3.86001V3.86001Z" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 9V13" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M12 16V16.5" stroke="#F03D3E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </label>
+                    </div>
+                  </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <p class="footer__text_component">Reusable component library</p>
+        </footer>
+    </div>
+</body>
+</html>
