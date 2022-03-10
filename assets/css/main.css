@@ -7,6 +7,7 @@
 @import '../../components/preview/preview.css';
 @import '../../components/navigation/navigation.css';
 @import '../../components/elements/element.css';
+@import '../../09-lection7/01-burger-menu/burger-menu.css';
 
 :root {
     --white: #ffffff;

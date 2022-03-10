@@ -1,9 +1,8 @@
 .preview {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    /* padding: 67px 0 92px; */
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    
     gap: 30px;
     margin-bottom: 64px;
     margin-top: 68px;
 }
-

@@ -1,8 +1,15 @@
+@media (min-width: 769px) {
+    
 
+.container-burger-menu {
+    display: none;
+}
+}
 @media (max-width: 768px) {
-.container {
+.container-burger-menu {
+    display: block;
     padding: 16px;
- }
+}
 .burger-menu {
     box-sizing: border-box;    
     padding: 16px;
@@ -13,7 +20,8 @@
     height: 100vh;
     transform: translateX(-100vw);
     transition: transform 200ms ease-in-out;
-    
+    background: var(--white);
+    z-index: 1;
 }
 .burger-menu[data-open] {
     transform: translateX(0);
@@ -22,6 +30,9 @@
     position: absolute;
     left: 50vw;
     transform: translate(-50%, -50%);
+}
+.burger-menu__main_close {
+    top: 42px;
 }
 
 .burger-menu_open  {
