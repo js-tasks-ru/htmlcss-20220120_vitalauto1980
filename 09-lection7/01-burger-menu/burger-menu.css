@@ -1,16 +1,15 @@
 @media (min-width: 769px) {
     
 
-.container-burger-menu {
+.burger-menu {
     display: none;
 }
 }
-@media (max-width: 768px) {
-.container-burger-menu {
-    display: block;
+
+.burger-menu {
     padding: 16px;
 }
-.burger-menu {
+.burger-menu__bar {
     box-sizing: border-box;    
     padding: 16px;
     position:fixed;
@@ -23,15 +22,15 @@
     background: var(--white);
     z-index: 1;
 }
-.burger-menu[data-open] {
+.burger-menu__bar[data-open] {
     transform: translateX(0);
 }
-.burger-menu__main {
+.burger-menu__logo {
     position: absolute;
     left: 50vw;
     transform: translate(-50%, -50%);
 }
-.burger-menu__main_close {
+.burger-menu__logo_close {
     top: 42px;
 }
 
@@ -124,5 +123,4 @@ margin: 0;
 }
 .burger-menu__item {
     padding-bottom: 1rem;
-}
 }

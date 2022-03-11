@@ -18,7 +18,7 @@
     
 }
 
-.card__title {
+.bottom__title {
     margin: 0;
     font-style: normal;
     font-weight: 500;
@@ -29,7 +29,7 @@
     margin-bottom: 6px;
 
 }
-.card__subtitle {
+.bottom__subtitle {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -46,7 +46,7 @@
     color: var(--blue);
     
 }
-.card__second {
+.card__inputs {
     display: flex;
     justify-content: center;
     align-items: center;

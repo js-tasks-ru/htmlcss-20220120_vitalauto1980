@@ -4,9 +4,8 @@
     }
 }
 
-@media (min-width: 769px) {
+
 .header {
-    display: block;
     padding: 25px 0 13px;
     background: var(--main-bg);
 }
@@ -78,5 +77,5 @@
     height: 82px;
     
 }
-}
+
 
