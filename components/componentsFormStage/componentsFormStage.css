@@ -1,0 +1,17 @@
+.main__component_form {
+    display: flex;
+    gap: 160px;
+    flex-wrap: nowrap;
+}
+.checkbox, .radio, .toggler {
+    display: block !important
+}
+.toggler__state {
+    margin-bottom: 18px !important;
+}
+.radio__state {
+    margin-bottom: 18px !important;
+}
+.input:nth-child(2n+1) {
+    margin-left: 0 !important;
+}

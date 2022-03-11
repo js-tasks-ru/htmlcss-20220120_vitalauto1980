@@ -48,4 +48,17 @@
     margin: 0 auto;
     padding-bottom: 136px; 
 }
+.footerComponent {
+    margin: 92px 0 56px 0;
+}
+.footer__text_component {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--grey-3);
+}
 }

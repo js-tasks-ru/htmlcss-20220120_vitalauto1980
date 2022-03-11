@@ -1,0 +1,40 @@
+.mainComponents__navi {
+    margin-top: 36px;;
+}
+
+.navi__title {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+}
+
+.navi__links {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+    white-space: nowrap;
+}
+.navi__link {
+    display: block;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.navi__link:last-child {
+    margin-top: 26px;
+}
+
+.navi__link:hover {
+    color: var(--grey-4);
+}
+.navi__link:active{
+    color: red;
+}

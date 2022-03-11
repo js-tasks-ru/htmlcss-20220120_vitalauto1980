@@ -8,6 +8,9 @@
 @import '../../components/navigation/navigation.css';
 @import '../../components/elements/element.css';
 @import '../../09-lection7/01-burger-menu/burger-menu.css';
+@import '../../components/componentsNaviBar/componentsNaviBar.css';
+@import '../../components/componentsMainPage/componentsMainPage.css';
+@import '../../components/componentsFormStage/componentsFormStage.css';
 
 :root {
     --white: #ffffff;
