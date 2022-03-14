@@ -8,9 +8,13 @@
 @import '../../components/navigation/navigation.css';
 @import '../../components/elements/element.css';
 @import '../../09-lection7/01-burger-menu/burger-menu.css';
-@import '../../components/componentsNaviBar/componentsNaviBar.css';
-@import '../../components/componentsMainPage/componentsMainPage.css';
-@import '../../components/componentsFormStage/componentsFormStage.css';
+@import '../../components/component-page/component-form.css';
+@import '../../components/component-page/component.css';
+@import '../../components/component-page/main.css';
+@import '../../components/component-page/navi.css';
+@import '../../components/component-page/footer.css';
+@import '../../components/component-page/header.css';
+@import '../../components/component-page/item.css';
 
 :root {
     --white: #ffffff;
