@@ -1,4 +1,4 @@
-.mainComponents__navi {
+.component__navi {
     margin-top: 36px;;
 }
 
@@ -35,6 +35,8 @@
 .navi__link:hover {
     color: var(--grey-4);
 }
-.navi__link:active{
+.navi__link:active, .navi__link:focus {
     color: red;
+    
 }
+
