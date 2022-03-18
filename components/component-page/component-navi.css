@@ -1,8 +1,8 @@
-.component__navi {
+.component-navi {
     margin-top: 36px;;
 }
 
-.navi__title {
+.component-navi__title {
     margin: 0;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -12,7 +12,7 @@
     color: var(--black);
 }
 
-.navi__links {
+.component-navi__links {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -21,21 +21,21 @@
     margin-top: 16px;
     white-space: nowrap;
 }
-.navi__link {
+.component-navi__link {
     display: block;
     margin-bottom: 4px;
     text-decoration: none;
     color: var(--black);
 }
 
-.navi__link:last-child {
+.component-navi__link:last-child {
     margin-top: 26px;
 }
 
-.navi__link:hover {
+.component-navi__link:hover {
     color: var(--grey-4);
 }
-.navi__link:active, .navi__link:focus {
+.component-navi__link:active, .component-navi__link:focus {
     color: red;
     
 }

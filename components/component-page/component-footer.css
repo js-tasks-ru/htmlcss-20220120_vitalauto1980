@@ -1,7 +1,7 @@
-.component__footer {
+.component-footer {
     margin: 92px 0 56px 0;
 }
-.footer__text_component {
+.component-footer__text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;

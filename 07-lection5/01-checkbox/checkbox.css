@@ -1,5 +1,5 @@
 .checkbox {
-    display: inline-block;
+    display: block;
 }
 .checkbox__input {
     visibility: hidden;
