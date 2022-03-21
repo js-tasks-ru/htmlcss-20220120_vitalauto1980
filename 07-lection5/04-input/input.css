@@ -44,9 +44,7 @@
     box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
     border-radius: 8px;
 }
-.input:nth-child(2n+1) {
-    margin-left: 0 !important;
-}
+
 .svg__success {
     position: absolute;
     right: 18px;

@@ -18,7 +18,7 @@
     
 }
 
-.bottom__title {
+.card__title {
     margin: 0;
     font-style: normal;
     font-weight: 500;
@@ -26,10 +26,10 @@
     line-height: 25px;
     text-align: center;
     color: var(--text-primary);
-    margin-bottom: 6px;
+    margin: 36px 0 8px 0;
 
 }
-.bottom__subtitle {
+.card__subtitle {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -39,39 +39,16 @@
     color: var(--text-primary);
     margin: 0;
 }
-.tooltip_preview {
-    margin: 127px 0 98px 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--blue);
-    
-}
-.card__inputs {
+
+.card__wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 37px;
-    margin: 49px 28px 88px 21px;
+    margin: 48px 28px 52px 21px;
 }
-.calendar_preview {
-    left: 50%;
-    margin: 0 49px 38px 49px;
-    
-}
-.avatar_preview {
-    margin: 32px 70px 67px 70px;
-}
-.load-more {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 92px;
-    
-}
-.btn_secondary_preview {
-    margin: 50px 0 75px 0 ;
-}
-.histogram_preview {
-    margin: 29px 0 67px 0;
-    background: var(--main-bg);
-}
+
+
+
+
 

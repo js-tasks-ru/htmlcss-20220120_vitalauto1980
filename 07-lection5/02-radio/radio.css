@@ -1,6 +1,6 @@
 
   .radio {
-    display: block;
+    display: inline-block;
     position: relative;
   }
   .radio__input {

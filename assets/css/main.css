@@ -15,6 +15,7 @@
 @import '../../components/component-page/component-footer.css';
 @import '../../components/component-page/component-header.css';
 @import '../../components/component-page/component.css';
+@import '../../components/load-more-btn/load-more.css';
 
 :root {
     --white: #ffffff;

@@ -59,10 +59,6 @@
 .header__toggler {
     display: flex;
 }
-.toggler__state {
-    margin: 0 15px 0 15px !important;
-
-}
 
 
 

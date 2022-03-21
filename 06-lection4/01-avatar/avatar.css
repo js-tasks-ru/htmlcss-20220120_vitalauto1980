@@ -11,3 +11,6 @@
     object-fit: cover;
 
 }
+.avatar_preview {
+    margin: 32px 0 67px 0;
+}
