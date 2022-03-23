@@ -1,6 +1,4 @@
-.component-footer {
-    margin: 92px 0 56px 0;
-}
+
 .component-footer__text {
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -10,4 +8,5 @@
     letter-spacing: 0.04em;
     text-transform: uppercase;
     color: var(--grey-3);
+    margin: 92px 0 56px 0;
 }
