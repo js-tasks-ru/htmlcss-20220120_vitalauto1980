@@ -45,10 +45,3 @@
     visibility: visible;
     opacity: 1;
 }
-.card__tooltip_preview {
-    margin: 127px 0 62px 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: var(--blue);
-    
-}
