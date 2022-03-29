@@ -1,0 +1,7 @@
+.component-form {
+    display: flex;
+    gap: 180px;
+    flex-wrap: nowrap;
+}
+
+

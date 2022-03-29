@@ -1,0 +1,15 @@
+.component {
+    margin-left: 104px;
+    margin-top: 68px;
+    height: 714px;
+}
+.component__name {
+    margin: 0;
+    margin-bottom: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 38px;
+    color: var(--grey-4);
+}

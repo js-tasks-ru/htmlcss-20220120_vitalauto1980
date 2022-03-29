@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../05-lection3/02-modal/modal.css">
+    <link rel="stylesheet" href="../../03-lection1/01-button/button.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="component-page">
+        <header class="component-header">
+            
+        </header>
+        <main class="component-main">
+            <div class="component-navi">
+                <h4 class="component-navi__title"> Components</h4>
+                <div class="component-navi__links">
+                    <a class="component-navi__link" href="../componentModal/componentModal.html">Modal</a>
+                    <a class="component-navi__link" href="../componentTooltip/componentTooltip.html">Tooltip</a>
+                    <a class="component-navi__link" href="../componentAvatar/componentAvatar.html">Avatar</a>
+                    <a class="component-navi__link" href="../componentCalendar/componentCalendar.html">Calendar</a>
+                    <a class="component-navi__link" href="../componentHistogram/componentHistogram.html">Histogram</a>
+                    <a class="component-navi__link" href="../componentForm/componentForm.html">Custom form elements</a>
+                    <a class="component-navi__link" href="../../index.html">Main page</a>
+                </div>
+            </div>
+            <div class="component">
+                <h3 class="component__name">Modal</h3>
+                <button id="modal-open" class="btn btn_secondary">Open modal</button>
+        <div id="modal" class="modal">
+            <div class="modal__window">
+            <a id="modal-close" href="#" title="close" class="modal__close">
+                <svg class="modal__icon">
+                    <use href="../../06-lection4/svg-sprite/svg-sprite.svg#cross"></use>
+                </svg>
+            </a>
+                <div class="modal__body">
+                    <h1 class="modal__title">Modal title</h1>
+                    <p class="modal__text">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+            </div>
+        </main>
+        <footer class="component-footer">
+            <p class="component-footer__text">Reusable component library</p>
+        </footer>
+    </div>
+</body>
+<script src="../../05-lection3/02-modal/index.js"></script> 
+</html>

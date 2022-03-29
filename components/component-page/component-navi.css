@@ -1,0 +1,41 @@
+
+
+.component-navi__title {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--black);
+    margin-top: 36px;
+}
+
+.component-navi__links {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    margin-top: 16px;
+    white-space: nowrap;
+}
+.component-navi__link {
+    display: block;
+    margin-bottom: 4px;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.component-navi__link:last-child {
+    margin-top: 26px;
+}
+
+.component-navi__link:hover {
+    color: var(--grey-4);
+}
+.component-navi__link:active, .component-navi__link:focus {
+    color: red;
+    
+}
+

@@ -6,6 +6,16 @@
 @import '../../components/card/card.css';
 @import '../../components/preview/preview.css';
 @import '../../components/navigation/navigation.css';
+@import '../../components/elements/element.css';
+@import '../../09-lection7/01-burger-menu/burger-menu.css';
+@import '../../components/component-page/component-form.css';
+@import '../../components/component-page/component-page.css';
+@import '../../components/component-page/component-main.css';
+@import '../../components/component-page/component-navi.css';
+@import '../../components/component-page/component-footer.css';
+@import '../../components/component-page/component-header.css';
+@import '../../components/component-page/component.css';
+@import '../../components/load-more-btn/load-more.css';
 
 :root {
     --white: #ffffff;
