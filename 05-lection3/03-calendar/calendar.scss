@@ -1,0 +1,74 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.calendar {
+    // max-width: 202px;
+    /* width: 100%; */
+    background: var(--main-bg);
+    border: 1px solid;
+    border-color: var(--grey-3);
+    /* box-sizing: border-box; */
+    border-radius: 8px;
+    padding: 28px 30px 40px 30px;
+
+    &__header {
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--text-calendar);
+        text-align: center;
+        margin: 0;
+        margin-bottom: 24px;
+    }
+    &__wrapper {
+        position: relative;
+        padding-bottom: 100%;
+        
+    }
+    &__inner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 20px;
+        color: var(--text-calendar);
+
+        &_day {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 8px;
+            line-height: 20px;
+            color: var(--grey-5); 
+            display: flex;
+            align-items: flex-start;
+        
+        }
+        &_dark {
+            background: var(--blue-2);
+            color: var(--white);
+        }
+        &_light {
+            background: rgba(160, 177, 245, 0.2);
+            
+        
+        }
+    }
+    
+}
+

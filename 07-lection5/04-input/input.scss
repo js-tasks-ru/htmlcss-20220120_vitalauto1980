@@ -1,0 +1,67 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.input {
+    
+    min-width: 350px;
+    display: inline-block;
+    position: relative;
+
+    &__title {
+        font-family: 'Inter', sans-serif;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        @include font(12px, normal, 500, 18px, var(--grey-3));
+    }
+    &__style {
+        padding-left: 24px;
+        padding-right: 38px;
+        font-family: 'Inter',sans-serif;
+        @include font(20px, normal, 400, 26px, var(--grey-2));
+        border: 1px solid var(--grey-2);
+        box-sizing: border-box;
+        border-radius: 8px;
+        height: 56px;
+        width: 100%;
+        transition: all 300ms linear;
+        outline: none;
+    }
+    &__style:focus {
+        font-family: 'Inter',sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 26px;
+        color: var(--grey-4);
+        border: 1px solid var(--blue-2);
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(51, 154, 240, 0.1);
+        border-radius: 8px;
+    }
+    &__style_success {
+        border: 1px solid var(--blue-2);
+    }
+    &__style_invalid {
+        border: 1px solid #F03D3E;
+    }
+    &__style_invalid:focus {
+        border: 1px solid #F03D3E;
+        box-sizing: border-box;
+        box-shadow: 0px 1px 1px rgba(240, 61, 62, 0.1);
+        border-radius: 8px;
+        outline: none;
+    }
+}
+  
+
+
+.svg__success {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+}
+.svg__error {
+    position: absolute;
+    right: 18px;
+    bottom: 16px;
+}

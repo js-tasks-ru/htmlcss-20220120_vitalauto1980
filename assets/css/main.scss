@@ -1,0 +1,84 @@
+@import './normalize.scss';
+@import '../fonts/fonts.scss';
+@import '../../components/header/header.scss';
+@import '../../components/footer/footer.scss';
+@import '../../components/container/container.scss';
+@import '../../components/card/card.scss';
+@import '../../components/preview/preview.scss';
+@import '../../components/navigation/navigation.scss';
+@import '../../09-lection7/01-burger-menu/burger-menu.scss';
+@import '../../components/component-page/component-form.scss';
+@import '../../components/component-page/component-page.scss';
+@import '../../components/component-page/component-main.scss';
+@import '../../components/component-page/component-navi.scss';
+@import '../../components/component-page/component-footer.scss';
+@import '../../components/component-page/component-header.scss';
+@import '../../components/component-page/component.scss';
+@import '../../06-lection4/01-avatar/avatar.scss';
+@import '../../03-lection1/01-button/button.scss';
+@import '../../05-lection3/02-modal/modal.scss';
+@import '../../04-lection2/01-histogram/histogram.scss';
+@import '../../05-lection3/01-tooltip/tooltip.scss';
+@import '../../05-lection3/03-calendar/calendar.scss';
+@import '../../07-lection5/01-checkbox/checkbox.scss';
+@import '../../07-lection5/02-radio/radio.scss';
+@import '../../07-lection5/03-toggler/toggler.scss';
+@import '../../07-lection5/04-input/input.scss';
+@import '../../Var/mixins.scss';
+@import '../../Var/variables.scss';
+
+
+:root {
+    --white: #ffffff;
+    --black: #212429;
+    --pink: hsl(339, 88%, 74%);
+    --purple: #7048E8;
+    --blue: #374FC7;
+    --navy: #334D6E;
+    --blue-2: #4263eb;
+    --navy: #334d6e;
+    --red: #F03D3E;
+    --grey-1: #F8F9FA;
+    --grey-2: #DDE2E5;
+    --grey-3: #ACB5BD;
+    --grey-4: #495057;
+    --grey-5: #90a0b7;
+
+    --error: var(--red);
+    --success: var(--blue);
+
+    --primary: var(--blue);
+    --secondary: var(--purple);
+
+    --main-bg: var(--white);
+    --font-color: var(--black);
+    --text-primary: var(--black);
+    --text-calendar: var(--navy);
+    --text-title: var(--black);
+    --link-color: var(--black);
+    --second-bg: var(--white);
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+.main {
+    background: #F9FAFC;
+    
+}
+html, body {
+    height: 100%;
+}
+html[data-theme-dark]{
+    background: var(--grey-4);
+    --main-bg: var(--black);
+    --font-color: var(--white);
+    --text-primary: var(--grey-3);
+    --text-calendar: var(--grey-3);
+    --text-title: var(--grey-5);
+    --link-color: var(--grey-2);
+    --second-bg: var(--grey-5);
+}
+
+
+

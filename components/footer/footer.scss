@@ -1,0 +1,22 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.footer {   
+    max-width: 640px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    font-style: normal; 
+    text-align: center;
+    background: var(--main_bg);
+
+    &__title {
+        margin: 0;
+        padding: 72px 0 32px;
+        @include font(38px, normal, 500, 48px, var(--text-primary));
+    }
+    &__text {
+        padding-bottom: 136px;
+        @include font(16px, normal, 400, 24px, var(--text-primary)); 
+    }
+    
+}
