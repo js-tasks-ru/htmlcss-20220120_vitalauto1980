@@ -1,0 +1,86 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+  
+  
+  .radio {
+    display: inline-block;
+    position: relative;
+
+    &__input {
+      visibility: hidden;
+      width: 0;
+      height: 0;
+      outline: none; 
+      position: absolute;
+    }
+    &__state {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      cursor: pointer;
+      margin-bottom: 18px;
+    }
+    &__control {
+      background: var(--white);
+      width: 28px;
+      height: 28px;
+      border: 1px solid;
+      border-color: var(--grey-2);
+      border-radius: 14px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+    }
+    &__icon {
+      width: 18px;
+      height: 18px;
+      color: var(--white);
+      
+    }
+    &__title {
+      font-family: 'Inter', sans-serif;
+      @include font(16px, normal, 400, 24px, var(--grey-4));
+    }
+    &__input:checked + &__state &__control {
+      border: 2px solid;
+      border-color: var(--blue-2);
+      box-sizing: border-box;
+    }
+    &__input:checked + &__state &__icon {
+      color: var(--blue-2);
+    }
+    &__input:focus + &__state &__title {
+      text-decoration: underline;
+    }
+    &__title:hover {
+      color: var(--black);
+    }
+    &__input:disabled + &__state {
+      pointer-events: none;
+    }
+    &__input:disabled + &__state &__control {
+      background: var(--grey-2);
+    }
+    &__input:disabled + &__state &__title {
+      color: var(--grey-2);
+    }
+    &__input:disabled + &__state &__title:before {
+      content: none;
+    }
+    &__input:disabled + &__state &__icon {
+      color: var(--grey-2);
+    }
+    &__title:before {
+      content: "Default";
+    }
+    &__input:checked ~ &__state &__title:before {
+      content: none;
+    }
+    &__input:checked ~ &__state &__title:after {
+      content: "Selected";
+    }
+  }
+  

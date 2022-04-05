@@ -1,0 +1,49 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.tooltip {
+    display: inline-flex;
+    position: relative; 
+    
+    &__icon {
+        width: 24px;
+        height: 24px;
+        display: inline-block;
+        overflow: hidden;
+    }
+    &__bubble {
+        position: absolute;
+        font-family: 'Inter', sans-serif;
+        @include font(16px, normal, 400, 24px, var(--grey-2));
+        letter-spacing: 0em;
+        text-align: center;
+        background: #4263EB;
+        box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+        border-radius: 10px;
+        box-shadow: 0px 2px 4px 0px #2124290D;
+        padding: 13px 21px 8px 21px;
+        bottom: calc(100% + 6px);
+        left: 50%;
+        transform: translateX(-50%);
+        white-space: nowrap;
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.1s;
+
+        &:after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            border: 8px solid transparent;
+            border-top: 6px solid #4263EB;
+            transform: translateX(-50%);
+        }
+    }
+    
+    &:hover &__bubble {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+

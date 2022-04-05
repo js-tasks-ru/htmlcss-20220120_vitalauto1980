@@ -1,0 +1,16 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.component {
+    margin-left: 104px;
+    margin-top: 68px;
+    height: 714px;
+
+    &__name {
+        margin: 0;
+        margin-bottom: 24px;
+        font-family: 'Inter', sans-serif;
+        @include font(28px, normal, 400, 38px, var(--grey-4));
+    }
+}
+

@@ -1,0 +1,49 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+
+
+
+.header {
+    padding: 25px 0 13px;
+    background: var(--main-bg);
+    
+    @media screen and ($media-max) {
+        display: none;
+    }
+
+    &__title {
+        font-family: 'Inter', sans-serif;
+        @include font(50px, normal, 500, 64px, var(--text-title));
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    &__components {
+        display: flex;  
+        justify-content:space-between;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    &__icon {
+        width: 110px;
+        height: 32px;
+        color: var(--font-color);
+    }
+    
+    &__toggler {
+        display: flex;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

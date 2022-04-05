@@ -1,0 +1,22 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.menu {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    @include font(16px, normal, 400, 24px, var(--black));
+    margin-left: auto;
+    margin-right: 57px;
+
+    &__link {
+        text-decoration: none;
+        color: var(--grey-3);
+    }
+    &__link:hover {
+        color: var(--link-color);
+    }
+    & a:nth-child(2) {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}

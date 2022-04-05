@@ -1,0 +1,43 @@
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
+.navigation {
+    box-sizing: border-box;
+    
+    &__menu {
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+    }
+    &__link {
+        position: relative;
+        box-sizing: border-box;
+        list-style-type: none;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: 'Inter', sans-serif;
+        @include font(16px, normal, 400, 24px, var(--grey-3));
+    }
+    &__link:hover {
+        color: var(--link-color);
+    }
+    &__link:after {
+        position: absolute;
+        display: block;
+        left: 50%;
+        top: 32px;
+        height: 5px;
+        width: 0;
+        background-color: var(--black);
+        content: "";
+        transform: translateX(-50%);
+        transition: width 0.2s ease-out;
+    }
+    &__link:hover:after,
+    &__link:focus:after {
+        
+        width: 100%;
+        
+    }
+}

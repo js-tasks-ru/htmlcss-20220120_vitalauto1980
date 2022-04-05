@@ -1,12 +1,12 @@
 
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
+
 .component-footer__text {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 18px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: var(--grey-3);
+    @include font(12px, normal, 500, 18px, var(--grey-3));
     margin: 92px 0 56px 0;
+
 }

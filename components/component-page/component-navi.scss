@@ -1,22 +1,16 @@
-
+@import "../../Var/variables.scss";
+@import "../../Var/mixins.scss";
 
 .component-navi__title {
     margin: 0;
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 26px;
-    color: var(--black);
+    @include font(20px, normal, 400, 26px, var(--black));
     margin-top: 36px;
 }
 
 .component-navi__links {
     font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
+    @include font(14px, normal, 400, 22px, var(--black));
     margin-top: 16px;
     white-space: nowrap;
 }
