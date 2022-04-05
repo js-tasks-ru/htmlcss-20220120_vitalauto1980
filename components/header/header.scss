@@ -7,6 +7,7 @@
 .header {
     padding: 25px 0 13px;
     background: var(--main-bg);
+    
     @media screen and ($media-max) {
         display: none;
     }
@@ -28,35 +29,17 @@
         height: 32px;
         color: var(--font-color);
     }
-    &__menu {
-        display: flex;
-        font-family: 'Inter', sans-serif;
-        @include font(16px, normal, 400, 24px, var(--black));
-        margin-left: auto;
-        margin-right: 57px;
-    }
+    
     &__toggler {
         display: flex;
     }
-    &__menu a:nth-child(2) {
-        margin-left: 24px;
-        margin-right: 24px;
-    }
-}
-.border {
-    border-bottom: 1px solid var(--grey-2);
+    
 }
 
 
 
-.menu__link {
-    text-decoration: none;
-    color: var(--grey-3);
 
-    &:hover {
-        color: var(--link-color);
-    }
-}
+
 
 
 

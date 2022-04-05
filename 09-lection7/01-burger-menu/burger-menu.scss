@@ -110,20 +110,16 @@
     &__item {
         padding-bottom: 1rem;
     }
+    &__toggler_name:before {
+        content: "Dark mode";
+    }
+    &__toggler_name {
+        font-family: 'Inter', sans-serif;
+        @include font(16px, normal, 400, 24px, var(--grey-4));
+        margin: 0;
+    }   
     
 }
 
-.mode__name:before {
-    content: "Dark mode";
-}
-.mode__name {
-    font-family: 'Inter', sans-serif;
-    // font-style: normal;
-    // font-weight: normal;
-    // font-size: 16px;
-    // line-height: 24px;
-    // color: var(--grey-4);
-    @include font(16px, normal, 400, 24px, var(--grey-4));
-    margin: 0;
-}   
+
 
